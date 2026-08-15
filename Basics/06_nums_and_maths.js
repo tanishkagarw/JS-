@@ -36,7 +36,7 @@ console.log((Math.random()*10) + 1) // 1 - 11
 const min = 10
 const max = 20
 
-Math.random()
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)
 
 
 
